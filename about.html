@@ -346,79 +346,57 @@
     </style>
 </head>
 <body>
-    <!-- Nav -->
-    <nav>
-        <div class="logo">
-            <a href="/">✧ 서버 웜업</a>
-        </div>
-        <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav ul').classList.toggle('open')">
-            <span></span><span></span><span></span>
-        </button>
-        <ul>
-            <li><a href="/">홈</a></li>
-            <li><a href="/info">정보</a></li>
-            <li><a href="/experience">경험</a></li>
-            <li><a href="/contact">연락</a></li>
-        </ul>
-    </nav>
 
-    <!-- Hero -->
-    <section class="hero">
-        <div class="container">
-            <span class="badge">마포 서버 웜업</span>
-            <h1>강남 셔츠룸<br>진짜 정보</h1>
-            <p class="sub">규칙을 깨는 프리미엄. 당신이 몰랐던 현장의 모든 것.</p>
-            <div style="margin-top:2rem;">
-                <a href="tel:010-6279-0862" class="tel-link">☏ 010-6279-0862</a>
-            </div>
-        </div>
-    </section>
+<main class="container">
+<section class="hero">
+<p class="mono">LOCAL INFO</p>
+<h1 class="impact">강남 셔츠룸이란 무엇인가</h1>
+<p class="sub">마포 서버 웜업 정보 페이지 · 지역 안내</p>
+</section>
+<section class="grid-2">
+<div class="card bg-primary">
+<h2 class="text-accent">기본 정의</h2>
+<p>강남 셔츠룸은 강남 일대에서 룸 단위로 좌석을 예약해 이용하는 유흥 업종의 한 형태를 가리키는 표현이다. 매장마다 운영 방식과 좌석 구성이 다르므로 방문 전에 예약 가능 여부와 이용 시간대를 먼저 확인하는 절차가 필요하다. 같은 업종이라도 매장 규모와 룸 개수에 따라 분위기와 대기 시간이 달라질 수 있다.</p>
+</div>
+<div class="card bg-secondary">
+<h2 class="text-accent">지역 특징</h2>
+<p>강남 지역은 교통 접근성이 좋고 야간 영업 매장이 밀집해 있어 인근에서 함께 이용할 수 있는 부대시설도 많은 편이다. 매장 위치가 대로변인지 골목 안쪽인지에 따라 주차나 대중교통 이용 편의성이 달라지므로 이동 경로를 미리 확인해두면 도움이 된다. 역에서 도보로 이동 가능한 거리인지도 예약 시 함께 물어보면 좋다.</p>
+</div>
+</section>
+<section class="grid-3">
+<div class="card">
+<p class="badge">예약</p>
+<p>인원과 시간대를 미리 알려주면 매장에서 좌석을 배정하는 예약제로 운영되는 경우가 많다. 인원이 늘어날 경우 사전에 알려야 자리 배정이 원활하다.</p>
+</div>
+<div class="card">
+<p class="badge">이용 시간</p>
+<p>매장별로 영업 시작과 마감 시간이 다르므로 방문 전 통화로 확인하는 편이 정확하다. 요일에 따라 운영 시간이 달라지는 곳도 있다.</p>
+</div>
+<div class="card">
+<p class="badge">문의</p>
+<p class="text-highlight">아래 번호로 예약 및 이용 문의가 가능하다.</p>
+<a href="tel:010-6279-0862" class="tel-link btn btn-primary">010-6279-0862</a>
+</div>
+</section>
+<section class="grid-2">
+<div class="card bg-primary">
+<h2 class="text-accent">이용 시 유의사항</h2>
+<p>일행 중 처음 방문하는 인원이 있다면 매장별 기본 규칙을 미리 안내받아두는 것이 좋다. 좌석 배정과 진행 순서는 매장마다 조금씩 다르므로 궁금한 점은 예약 통화 중에 함께 물어보는 편이 낫다.</p>
+</div>
+<div class="card bg-secondary">
+<h2 class="text-accent">예약 변경과 취소</h2>
+<p>일정이 바뀌었을 때는 가능한 한 빨리 매장에 연락해 변경이나 취소를 알리는 것이 좋다. 임박한 시간에 연락할 경우 좌석 재배정이 어려울 수 있으므로 여유를 두고 알리는 편이 서로에게 편리하다.</p>
+</div>
+</section>
+<section class="faq-item">
+<h2>자주 묻는 질문</h2>
+<p>단체 예약도 가능한가요? 매장 규모에 따라 다르므로 인원 수를 먼저 알리고 가능 여부를 확인하는 것이 좋다.</p>
+<p>당일 예약도 되나요? 시간대에 따라 자리가 남아 있으면 당일 연락으로도 이용할 수 있는 경우가 있다.</p>
+<p>주차 공간이 있나요? 매장마다 다르므로 차량으로 이동할 계획이라면 예약 시 함께 문의하는 것이 좋다.</p>
+<p>인원이 도중에 늘어나면 어떻게 하나요? 변동 가능성이 있다면 예약 시 최대 인원을 미리 알려두는 것이 안전하다.</p>
+</section>
+</main>
 
-    <!-- 상세 정보 섹션 -->
-    <section class="container" style="padding:3rem 0;">
-        <h2>📌 마포 vs 강남 셔츠룸</h2>
-        <div class="grid-2">
-            <div class="card">
-                <h3>강남 셔츠룸</h3>
-                <p>정해진 룰, 비싼 테이블, 가짜 분위기. 거기엔 진짜 서버 웜업이 없다. 우리는 다르다.</p>
-            </div>
-            <div class="card">
-                <h3>마포 서버 웜업</h3>
-                <p>진짜 프리미엄은 자유에서 나온다. 규칙을 깨고, 한계를 넘어서. 010-6279-0862로 직접 확인해.</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- 운영 철학 -->
-    <section class="bg-secondary" style="padding:3rem 0;">
-        <div class="container">
-            <h2>⚡ 운영 철학</h2>
-            <div class="grid-3">
-                <div class="card">
-                    <h3>#1 진정성</h3>
-                    <p>가짜 포장 없음. 우리는 마포에서 서버를 직접 웜업한다. 강남 셔츠룸 같은 연출은 없다.</p>
-                </div>
-                <div class="card">
-                    <h3>#2 프라이버시</h3>
-                    <p>당신의 취향과 시간은 완전히 보호된다. 기록 없음, 간섭 없음, 오직 경험.</p>
-                </div>
-                <div class="card">
-                    <h3>#3 현장주의</h3>
-                    <p>디지털이 아닌 실제 감각. 마포 서버 웜업은 말이 아닌 행동으로 증명한다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 상세 FAQ (정보 페이지 특화) -->
-    <section class="container" style="padding:3rem 0;">
-        <h2>❓ 자주 묻는 정보</h2>
-        <div class="faq-item">
-            <h4>강남 셔츠룸과 마포 서버 웜업의 차이는?</h4>
-            <p>강남은 시스템과 가격표에 갇혔지만, 우리는 마포에서 자유로운 웜업을 제공합니다. 규칙을 따르지 않고 경험을 창조합니다.</p>
-        </div>
-        <div class="faq-item">
-            <h4>서버 웜업이 정확히 무엇인가요?</h4>
-            <p>단순한 셔츠룸이 아닌, 진짜 프리미엄 분위기와 서비스를 위한 준비 과정입니다. 전화 010-6279-0862로 직접
 </body>
 </html>
